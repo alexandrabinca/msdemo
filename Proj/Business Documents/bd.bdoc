@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<businessDocument xmlns="http://www.axway.com/mappingServices/hl7BusinessDocument" id="bbdce118-c6f7-42ed-9e0f-27f22e59bae1" encodingBD="iso8859">
+   <signature appVersion="3.1.2" lastUpdatedOn="29/09/2016 18:42:16 +0300"/>
+   <childElements>
+      <childElement factoryType="Hl7Field" order="1" name="MSH" hash="-618540981">
+         <cardinality minimum="1" maximum="1"/>
+         <childElements>
+            <childElement factoryType="Hl7Leaf" hash="403540741" typeId="10" definition="3" paddingCharElement=" " allowDistortion="true" label="Segment Identifier" nullable="true" keepDecimalSeparator="true" defaultValue="MSH" order="2" encodingElement="iso8859" name="ID">
+               <cardinality minimum="1" maximum="1"/>
+            </childElement>
+            <childElement factoryType="Hl7Leaf" hash="-1579688999" typeId="10" definition="1" paddingCharElement=" " allowDistortion="true" label="Field Separator" nullable="true" keepDecimalSeparator="true" defaultValue="|" order="3" encodingElement="iso8859" name="FieldSeparator">
+               <cardinality minimum="1" maximum="1"/>
+            </childElement>
+            <childElement factoryType="Hl7Leaf" hash="1976777879" typeId="10" definition="1" paddingCharElement=" " allowDistortion="true" label="Component Separator" nullable="true" keepDecimalSeparator="true" defaultValue="^" order="4" encodingElement="iso8859" name="ComponentSeparator">
+               <cardinality minimum="1" maximum="1"/>
+            </childElement>
+            <childElement factoryType="Hl7Leaf" hash="-1425163796" typeId="10" definition="1" paddingCharElement=" " allowDistortion="true" label="Repetition Separator" nullable="true" keepDecimalSeparator="true" defaultValue="~" order="5" encodingElement="iso8859" name="RepetitionSeparator">
+               <cardinality minimum="1" maximum="1"/>
+            </childElement>
+            <childElement factoryType="Hl7Leaf" hash="-424986157" typeId="10" definition="1" paddingCharElement=" " allowDistortion="true" label="Escape Character" nullable="true" keepDecimalSeparator="true" defaultValue="\" order="6" encodingElement="iso8859" name="EscapeCharacter">
+               <cardinality minimum="1" maximum="1"/>
+            </childElement>
+            <childElement factoryType="Hl7Leaf" hash="15549216" typeId="10" definition="1" paddingCharElement=" " allowDistortion="true" label="SubComponent Separator" nullable="true" keepDecimalSeparator="true" defaultValue="&amp;" order="7" encodingElement="iso8859" name="SubComponentSeparator">
+               <cardinality minimum="1" maximum="1"/>
+            </childElement>
+            <childElement factoryType="Hl7Component" order="8" name="SendingApplication" label="Sending Application" hash="-936648778">
+               <cardinality maximum="1"/>
+               <childElements>
+                  <childElement factoryType="Hl7Leaf" hash="1179266412" typeId="10" definition="20" paddingCharElement=" " allowDistortion="true" label="NameSpace ID" nullable="true" keepDecimalSeparator="true" order="9" encodingElement="iso8859" name="NameSpaceID">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="-825827747" typeId="10" definition="199" paddingCharElement=" " allowDistortion="true" label="Universal ID" nullable="true" keepDecimalSeparator="true" order="10" encodingElement="iso8859" name="UniversalID">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="248674251" typeId="10" definition="6" paddingCharElement=" " allowDistortion="true" label="Universal ID Type" nullable="true" keepDecimalSeparator="true" order="11" encodingElement="iso8859" name="UniversalIDType">
+                     <cardinality maximum="1"/>
+                  </childElement>
+               </childElements>
+            </childElement>
+            <childElement factoryType="Hl7Component" order="12" name="SendingFacility" label="Sending Facility" hash="-98362745">
+               <cardinality maximum="1"/>
+               <childElements>
+                  <childElement factoryType="Hl7Leaf" hash="-2064926914" typeId="10" definition="20" paddingCharElement=" " allowDistortion="true" label="NameSpace ID" nullable="true" keepDecimalSeparator="true" order="13" encodingElement="iso8859" name="NameSpaceID">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="1072268175" typeId="10" definition="199" paddingCharElement=" " allowDistortion="true" label="Universal ID" nullable="true" keepDecimalSeparator="true" order="14" encodingElement="iso8859" name="UniversalID">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="-872266675" typeId="10" definition="6" paddingCharElement=" " allowDistortion="true" label="Universal ID Type" nullable="true" keepDecimalSeparator="true" order="15" encodingElement="iso8859" name="UniversalIDType">
+                     <cardinality maximum="1"/>
+                  </childElement>
+               </childElements>
+            </childElement>
+            <childElement factoryType="Hl7Component" order="16" name="ReceivingApplication" label="Receiving Application" hash="1260697401">
+               <cardinality maximum="1"/>
+               <childElements>
+                  <childElement factoryType="Hl7Leaf" hash="1697518057" typeId="10" definition="20" paddingCharElement=" " allowDistortion="true" label="NameSpace ID" nullable="true" keepDecimalSeparator="true" order="17" encodingElement="iso8859" name="NameSpaceID">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="720534630" typeId="10" definition="199" paddingCharElement=" " allowDistortion="true" label="Universal ID" nullable="true" keepDecimalSeparator="true" order="18" encodingElement="iso8859" name="UniversalID">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="466432890" typeId="10" definition="6" paddingCharElement=" " allowDistortion="true" label="Universal ID Type" nullable="true" keepDecimalSeparator="true" order="19" encodingElement="iso8859" name="UniversalIDType">
+                     <cardinality maximum="1"/>
+                  </childElement>
+               </childElements>
+            </childElement>
+            <childElement factoryType="Hl7Component" order="20" name="ReceivingFacility" label="Receiving Facility" hash="1512899667">
+               <cardinality maximum="1"/>
+               <childElements>
+                  <childElement factoryType="Hl7Leaf" hash="224052963" typeId="10" definition="20" paddingCharElement=" " allowDistortion="true" label="NameSpace ID" nullable="true" keepDecimalSeparator="true" order="21" encodingElement="iso8859" name="NameSpaceID">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="543904174" typeId="10" definition="199" paddingCharElement=" " allowDistortion="true" label="Universal ID" nullable="true" keepDecimalSeparator="true" order="22" encodingElement="iso8859" name="UniversalID">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="768361448" typeId="10" definition="6" paddingCharElement=" " allowDistortion="true" label="Universal ID Type" nullable="true" keepDecimalSeparator="true" order="23" encodingElement="iso8859" name="UniversalIDType">
+                     <cardinality maximum="1"/>
+                  </childElement>
+               </childElements>
+            </childElement>
+            <childElement factoryType="Hl7Component" order="24" name="DateTimeOfMessage" label="DateTime Of Message" hash="1947586764">
+               <cardinality maximum="1"/>
+               <childElements>
+                  <childElement factoryType="Hl7Leaf" hash="10972977" typeId="32" definition="24" allowDistortion="true" label="Date" keepDecimalSeparator="true" order="25" pattern="YYYYMMDDhhmmss.4zzzzz" encodingElement="iso8859" name="Date">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+               </childElements>
+            </childElement>
+            <childElement factoryType="Hl7FieldLeaf" hash="-185886746" typeId="10" definition="40" paddingCharElement=" " allowDistortion="true" label="Security" nullable="true" keepDecimalSeparator="true" order="26" encodingElement="iso8859" name="Security">
+               <cardinality maximum="1"/>
+            </childElement>
+            <childElement factoryType="Hl7Component" order="27" name="MessageType" label="Message Type" hash="-394825303">
+               <cardinality maximum="1"/>
+               <childElements>
+                  <childElement factoryType="Hl7Leaf" hash="-1924305441" typeId="10" definition="3" paddingCharElement=" " allowDistortion="true" label="Message Code ID" nullable="true" keepDecimalSeparator="true" order="28" encodingElement="iso8859" name="MessageCodeID">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="868467969" typeId="10" definition="3" paddingCharElement=" " allowDistortion="true" label="Trigger Event ID" nullable="true" keepDecimalSeparator="true" order="29" encodingElement="iso8859" name="TriggerEventID">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="835530914" typeId="10" definition="7" paddingCharElement=" " allowDistortion="true" label="Message Structure ID" nullable="true" keepDecimalSeparator="true" order="30" encodingElement="iso8859" name="MessageStructureID">
+                     <cardinality maximum="1"/>
+                  </childElement>
+               </childElements>
+            </childElement>
+            <childElement factoryType="Hl7FieldLeaf" hash="1293028340" typeId="10" definition="20" paddingCharElement=" " allowDistortion="true" label="Message Control ID" nullable="true" keepDecimalSeparator="true" order="31" encodingElement="iso8859" name="MessageControlID">
+               <cardinality maximum="1"/>
+            </childElement>
+            <childElement factoryType="Hl7Component" order="32" name="ProcessingID" label="Processing ID" hash="1845115766">
+               <cardinality maximum="1"/>
+               <childElements>
+                  <childElement factoryType="Hl7Leaf" hash="596476408" typeId="10" definition="3" paddingCharElement=" " allowDistortion="true" label="Processing ID" nullable="true" keepDecimalSeparator="true" order="33" encodingElement="iso8859" name="ProcessingID">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="-29856722" typeId="10" definition="3" paddingCharElement=" " allowDistortion="true" label="ProcessingMode" nullable="true" keepDecimalSeparator="true" order="34" encodingElement="iso8859" name="ProcessingMode">
+                     <cardinality maximum="1"/>
+                  </childElement>
+               </childElements>
+            </childElement>
+            <childElement factoryType="Hl7FieldLeaf" hash="1641368020" typeId="10" definition="8" paddingCharElement=" " allowDistortion="true" label="Version ID" nullable="true" keepDecimalSeparator="true" order="35" encodingElement="iso8859" name="VersionID">
+               <cardinality maximum="1"/>
+            </childElement>
+            <childElement factoryType="Hl7FieldLeaf" hash="-455137590" signPlus="+" typeId="60" definition="15" paddingCharElement=" " allowDistortion="true" label="Sequence Number" signMinus="-" nullable="true" keepDecimalSeparator="true" order="36" encodingElement="iso8859" name="SequenceNumber">
+               <cardinality maximum="1"/>
+            </childElement>
+            <childElement factoryType="Hl7FieldLeaf" hash="731065958" typeId="10" definition="180" paddingCharElement=" " allowDistortion="true" label="Continuation Pointer" nullable="true" keepDecimalSeparator="true" order="37" encodingElement="iso8859" name="ContinuationPointer">
+               <cardinality maximum="1"/>
+            </childElement>
+            <childElement factoryType="Hl7FieldLeaf" hash="577878875" typeId="10" definition="2" paddingCharElement=" " allowDistortion="true" label="Accept Acknowledgement Type" nullable="true" keepDecimalSeparator="true" order="38" encodingElement="iso8859" name="AcceptAcknowledgementType">
+               <cardinality maximum="1"/>
+            </childElement>
+            <childElement factoryType="Hl7FieldLeaf" hash="499137665" typeId="10" definition="2" paddingCharElement=" " allowDistortion="true" label="Application Acknowledgement Type" nullable="true" keepDecimalSeparator="true" order="39" encodingElement="iso8859" name="ApplicationAcknowledgementType">
+               <cardinality maximum="1"/>
+            </childElement>
+            <childElement factoryType="Hl7FieldLeaf" hash="1023386083" typeId="10" definition="2" paddingCharElement=" " allowDistortion="true" label="Country Code" nullable="true" keepDecimalSeparator="true" order="40" encodingElement="iso8859" name="CountryCode">
+               <cardinality maximum="1"/>
+            </childElement>
+            <childElement factoryType="Hl7FieldLeaf" hash="-485443911" typeId="10" definition="16" paddingCharElement=" " allowDistortion="true" label="Character Set" nullable="true" keepDecimalSeparator="true" order="41" encodingElement="iso8859" name="CharacterSet">
+               <cardinality/>
+            </childElement>
+            <childElement factoryType="Hl7Component" order="42" name="PrincipalLanguageOfMessage" label="Principal Language Of Message" hash="-644036169">
+               <cardinality maximum="1"/>
+               <childElements>
+                  <childElement factoryType="Hl7Leaf" hash="-259822898" typeId="10" definition="20" paddingCharElement=" " allowDistortion="true" label="Identifier" nullable="true" keepDecimalSeparator="true" order="43" encodingElement="iso8859" name="Identifier">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="1246920989" typeId="10" definition="199" paddingCharElement=" " allowDistortion="true" label="Text" nullable="true" keepDecimalSeparator="true" order="44" encodingElement="iso8859" name="Text">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="1770320829" typeId="10" definition="20" paddingCharElement=" " allowDistortion="true" label="Name of Coding System" nullable="true" keepDecimalSeparator="true" order="45" encodingElement="iso8859" name="NameofCodingSystem">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="310292646" typeId="10" definition="20" paddingCharElement=" " allowDistortion="true" label="Alternate Identifier" nullable="true" keepDecimalSeparator="true" order="46" encodingElement="iso8859" name="AlternateIdentifier">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="2121978852" typeId="10" definition="199" paddingCharElement=" " allowDistortion="true" label="Alternate Text" nullable="true" keepDecimalSeparator="true" order="47" encodingElement="iso8859" name="AlternateText">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="2075722409" typeId="10" definition="20" paddingCharElement=" " allowDistortion="true" label="Name of Alternate Coding System" nullable="true" keepDecimalSeparator="true" order="48" encodingElement="iso8859" name="NameofAlternateCodingSystem">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="-964828579" typeId="10" definition="10" paddingCharElement=" " allowDistortion="true" label="Coding System Version ID" nullable="true" keepDecimalSeparator="true" order="49" encodingElement="iso8859" name="CodingSystemVersionID">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="-151810884" typeId="10" definition="10" paddingCharElement=" " allowDistortion="true" label="Alternate Coding System Version ID" nullable="true" keepDecimalSeparator="true" order="50" encodingElement="iso8859" name="AlternateCodingSystemVersionID">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="1909927762" typeId="10" definition="199" paddingCharElement=" " allowDistortion="true" label="Original Text" nullable="true" keepDecimalSeparator="true" order="51" encodingElement="iso8859" name="OriginalText">
+                     <cardinality maximum="1"/>
+                  </childElement>
+               </childElements>
+            </childElement>
+            <childElement factoryType="Hl7FieldLeaf" hash="1830187585" typeId="10" definition="20" paddingCharElement=" " allowDistortion="true" label="Alternate Character Set Handling Scheme" nullable="true" keepDecimalSeparator="true" order="52" encodingElement="iso8859" name="AlternateCharacterSetHandlingScheme">
+               <cardinality maximum="1"/>
+            </childElement>
+            <childElement factoryType="Hl7Component" order="53" name="MessageProfileIdentifier" label="Message Profile Identifier" hash="906050922">
+               <cardinality/>
+               <childElements>
+                  <childElement factoryType="Hl7Leaf" hash="565893273" typeId="10" definition="199" paddingCharElement=" " allowDistortion="true" label="Entity Identifier" nullable="true" keepDecimalSeparator="true" order="54" encodingElement="iso8859" name="EntityIdentifier">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="-1885457983" typeId="10" definition="20" paddingCharElement=" " allowDistortion="true" label="Namespace ID" nullable="true" keepDecimalSeparator="true" order="55" encodingElement="iso8859" name="NamespaceID">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="1574290536" typeId="10" definition="199" paddingCharElement=" " allowDistortion="true" label="Universal ID" nullable="true" keepDecimalSeparator="true" order="56" encodingElement="iso8859" name="UniversalID">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="-56238505" typeId="10" definition="6" paddingCharElement=" " allowDistortion="true" label="Universal ID Type" nullable="true" keepDecimalSeparator="true" order="57" encodingElement="iso8859" name="UniversalIDType">
+                     <cardinality maximum="1"/>
+                  </childElement>
+               </childElements>
+            </childElement>
+            <childElement factoryType="Hl7Component" order="58" name="SendingResponsibleOrganization" label="Sending Responsible Organization" hash="616911257">
+               <cardinality maximum="1"/>
+               <childElements>
+                  <childElement factoryType="Hl7Leaf" hash="1357519154" typeId="10" definition="50" paddingCharElement=" " allowDistortion="true" label="Organization Name" nullable="true" keepDecimalSeparator="true" order="59" encodingElement="iso8859" name="OrganizationName">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="131186890" typeId="10" definition="20" paddingCharElement=" " allowDistortion="true" label="Organization Name Type Code" nullable="true" keepDecimalSeparator="true" order="60" encodingElement="iso8859" name="OrganizationNameTypeCode">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" signMinusPos="1" hash="642941027" signPlus="+" typeId="60" definition="4" paddingCharElement="0" allowDistortion="true" label="ID Number" signPlusPos="1" signMinus="-" nullable="true" keepDecimalSeparator="true" order="61" encodingElement="iso8859" name="IDNumber">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" signMinusPos="1" hash="1639960462" signPlus="+" typeId="60" definition="4" paddingCharElement="0" allowDistortion="true" label="Identifier Check Digit" signPlusPos="1" signMinus="-" nullable="true" keepDecimalSeparator="true" order="62" encodingElement="iso8859" name="IdentifierCheckDigit">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="37389248" typeId="10" definition="3" paddingCharElement=" " allowDistortion="true" label="Check Digit Scheme" nullable="true" keepDecimalSeparator="true" order="63" encodingElement="iso8859" name="CheckDigitScheme">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7SubComponent" order="64" name="AssigningAuthority" label="Assigning Authority" hash="410007523">
+                     <cardinality maximum="1"/>
+                     <childElements>
+                        <childElement factoryType="Hl7Leaf" hash="-452942433" typeId="10" definition="20" paddingCharElement=" " allowDistortion="true" label="Namespace ID" nullable="true" keepDecimalSeparator="true" order="65" encodingElement="iso8859" name="NamespaceID">
+                           <cardinality minimum="1" maximum="1"/>
+                        </childElement>
+                        <childElement factoryType="Hl7Leaf" hash="304697822" typeId="10" definition="199" paddingCharElement=" " allowDistortion="true" label="Universal ID" nullable="true" keepDecimalSeparator="true" order="66" encodingElement="iso8859" name="UniversalID">
+                           <cardinality maximum="1"/>
+                        </childElement>
+                        <childElement factoryType="Hl7Leaf" hash="-151133015" typeId="10" definition="6" paddingCharElement=" " allowDistortion="true" label="Universal ID Type" nullable="true" keepDecimalSeparator="true" order="67" encodingElement="iso8859" name="UniversalIDType">
+                           <cardinality maximum="1"/>
+                        </childElement>
+                     </childElements>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="-569044043" typeId="10" definition="5" paddingCharElement=" " allowDistortion="true" label="Identifier Type Code" nullable="true" keepDecimalSeparator="true" order="68" encodingElement="iso8859" name="IdentifierTypeCode">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7SubComponent" order="69" name="AssigningFacility" label="Assigning Facility" hash="-178064898">
+                     <cardinality maximum="1"/>
+                     <childElements>
+                        <childElement factoryType="Hl7Leaf" hash="1427170695" typeId="10" definition="20" paddingCharElement=" " allowDistortion="true" label="NamespaceID" nullable="true" keepDecimalSeparator="true" order="70" encodingElement="iso8859" name="NamespaceID">
+                           <cardinality minimum="1" maximum="1"/>
+                        </childElement>
+                        <childElement factoryType="Hl7Leaf" hash="1723439459" typeId="10" definition="199" paddingCharElement=" " allowDistortion="true" label="Universal ID" nullable="true" keepDecimalSeparator="true" order="71" encodingElement="iso8859" name="UniversalID">
+                           <cardinality maximum="1"/>
+                        </childElement>
+                        <childElement factoryType="Hl7Leaf" hash="-1010371206" typeId="10" definition="6" paddingCharElement=" " allowDistortion="true" label="Universal ID Type" nullable="true" keepDecimalSeparator="true" order="72" encodingElement="iso8859" name="UniversalIDType">
+                           <cardinality maximum="1"/>
+                        </childElement>
+                     </childElements>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="-1091710304" typeId="10" definition="1" paddingCharElement=" " allowDistortion="true" label="Name Representation Code" nullable="true" keepDecimalSeparator="true" order="73" encodingElement="iso8859" name="NameRepresentationCode">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="1483185846" typeId="10" definition="20" paddingCharElement=" " allowDistortion="true" label="Organization Identifier" nullable="true" keepDecimalSeparator="true" order="74" encodingElement="iso8859" name="OrganizationIdentifier">
+                     <cardinality maximum="1"/>
+                  </childElement>
+               </childElements>
+            </childElement>
+            <childElement factoryType="Hl7Component" order="75" name="ReceivingResponsibleOrganization" label="Receiving Responsible Organization" hash="-1700635194">
+               <cardinality maximum="1"/>
+               <childElements>
+                  <childElement factoryType="Hl7Leaf" hash="-2090559682" typeId="10" definition="50" paddingCharElement=" " allowDistortion="true" label="Organization Name" nullable="true" keepDecimalSeparator="true" order="76" encodingElement="iso8859" name="OrganizationName">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="-1292577848" typeId="10" definition="20" paddingCharElement=" " allowDistortion="true" label="Organization Name Type Code" nullable="true" keepDecimalSeparator="true" order="77" encodingElement="iso8859" name="OrganizationNameTypeCode">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" signMinusPos="1" hash="1599397871" signPlus="+" typeId="60" definition="4" paddingCharElement="0" allowDistortion="true" label="ID Number" signPlusPos="1" signMinus="-" nullable="true" keepDecimalSeparator="true" order="78" encodingElement="iso8859" name="IDNumber">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" signMinusPos="1" hash="-1509950286" signPlus="+" typeId="60" definition="4" paddingCharElement="0" allowDistortion="true" label="Identifier Check Digit" signPlusPos="1" signMinus="-" nullable="true" keepDecimalSeparator="true" order="79" encodingElement="iso8859" name="IdentifierCheckDigit">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="-1073178533" typeId="10" definition="3" paddingCharElement=" " allowDistortion="true" label="Check Digit Scheme" nullable="true" keepDecimalSeparator="true" order="80" encodingElement="iso8859" name="CheckDigitScheme">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7SubComponent" order="81" name="AssigningAuthority" label="Assigning Authority" hash="-1330853785">
+                     <cardinality maximum="1"/>
+                     <childElements>
+                        <childElement factoryType="Hl7Leaf" hash="-145221854" typeId="10" definition="20" paddingCharElement=" " allowDistortion="true" label="Namespace ID" nullable="true" keepDecimalSeparator="true" order="82" encodingElement="iso8859" name="NamespaceID">
+                           <cardinality minimum="1" maximum="1"/>
+                        </childElement>
+                        <childElement factoryType="Hl7Leaf" hash="348975318" typeId="10" definition="199" paddingCharElement=" " allowDistortion="true" label="Universal ID" nullable="true" keepDecimalSeparator="true" order="83" encodingElement="iso8859" name="UniversalID">
+                           <cardinality maximum="1"/>
+                        </childElement>
+                        <childElement factoryType="Hl7Leaf" hash="-987441362" typeId="10" definition="6" paddingCharElement=" " allowDistortion="true" label="Universal ID Type" nullable="true" keepDecimalSeparator="true" order="84" encodingElement="iso8859" name="UniversalIDType">
+                           <cardinality maximum="1"/>
+                        </childElement>
+                     </childElements>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="-445541880" typeId="10" definition="5" paddingCharElement=" " allowDistortion="true" label="Identifier Type Code" nullable="true" keepDecimalSeparator="true" order="85" encodingElement="iso8859" name="IdentifierTypeCode">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7SubComponent" order="86" name="AssigningFacility" label="Assigning Facility" hash="1264110695">
+                     <cardinality maximum="1"/>
+                     <childElements>
+                        <childElement factoryType="Hl7Leaf" hash="-70052139" typeId="10" definition="20" paddingCharElement=" " allowDistortion="true" label="NamespaceID" nullable="true" keepDecimalSeparator="true" order="87" encodingElement="iso8859" name="NamespaceID">
+                           <cardinality minimum="1" maximum="1"/>
+                        </childElement>
+                        <childElement factoryType="Hl7Leaf" hash="655842496" typeId="10" definition="199" paddingCharElement=" " allowDistortion="true" label="Universal ID" nullable="true" keepDecimalSeparator="true" order="88" encodingElement="iso8859" name="UniversalID">
+                           <cardinality maximum="1"/>
+                        </childElement>
+                        <childElement factoryType="Hl7Leaf" hash="1834466760" typeId="10" definition="6" paddingCharElement=" " allowDistortion="true" label="Universal ID Type" nullable="true" keepDecimalSeparator="true" order="89" encodingElement="iso8859" name="UniversalIDType">
+                           <cardinality maximum="1"/>
+                        </childElement>
+                     </childElements>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="-671514939" typeId="10" definition="1" paddingCharElement=" " allowDistortion="true" label="Name Representation Code" nullable="true" keepDecimalSeparator="true" order="90" encodingElement="iso8859" name="NameRepresentationCode">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="-1397359743" typeId="10" definition="20" paddingCharElement=" " allowDistortion="true" label="Organization Identifier" nullable="true" keepDecimalSeparator="true" order="91" encodingElement="iso8859" name="OrganizationIdentifier">
+                     <cardinality maximum="1"/>
+                  </childElement>
+               </childElements>
+            </childElement>
+            <childElement factoryType="Hl7Component" order="92" name="SendingNetworkAddress" label="Sending Network Address" hash="1029364803">
+               <cardinality maximum="1"/>
+               <childElements>
+                  <childElement factoryType="Hl7Leaf" hash="1122907983" typeId="10" definition="20" paddingCharElement=" " allowDistortion="true" label="NameSpace ID" nullable="true" keepDecimalSeparator="true" order="93" encodingElement="iso8859" name="NameSpaceID">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="-1295788954" typeId="10" definition="199" paddingCharElement=" " allowDistortion="true" label="Universal ID" nullable="true" keepDecimalSeparator="true" order="94" encodingElement="iso8859" name="UniversalID">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="2100105963" typeId="10" definition="6" paddingCharElement=" " allowDistortion="true" label="Universal ID Type" nullable="true" keepDecimalSeparator="true" order="95" encodingElement="iso8859" name="UniversalIDType">
+                     <cardinality maximum="1"/>
+                  </childElement>
+               </childElements>
+            </childElement>
+            <childElement factoryType="Hl7Component" order="96" name="ReceivingNetworkAddress" label="Receiving Network Address" hash="-964207913">
+               <cardinality maximum="1"/>
+               <childElements>
+                  <childElement factoryType="Hl7Leaf" hash="2071236220" typeId="10" definition="20" paddingCharElement=" " allowDistortion="true" label="NameSpace ID" nullable="true" keepDecimalSeparator="true" order="97" encodingElement="iso8859" name="NameSpaceID">
+                     <cardinality minimum="1" maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="-23034803" typeId="10" definition="199" paddingCharElement=" " allowDistortion="true" label="Universal ID" nullable="true" keepDecimalSeparator="true" order="98" encodingElement="iso8859" name="UniversalID">
+                     <cardinality maximum="1"/>
+                  </childElement>
+                  <childElement factoryType="Hl7Leaf" hash="865499825" typeId="10" definition="6" paddingCharElement=" " allowDistortion="true" label="Universal ID Type" nullable="true" keepDecimalSeparator="true" order="99" encodingElement="iso8859" name="UniversalIDType">
+                     <cardinality maximum="1"/>
+                  </childElement>
+               </childElements>
+            </childElement>
+         </childElements>
+      </childElement>
+   </childElements>
+</businessDocument>
